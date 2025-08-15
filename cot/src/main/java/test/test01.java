@@ -29,8 +29,8 @@ class test01 {
                             ;
             }
         }
-//        answer[0] = east;
-//        answer[1] = north;
-//        return answer;
+        answer[0] = east;
+        answer[1] = north;
+        return answer;
     }
 }
