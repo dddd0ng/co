@@ -6,7 +6,8 @@ public class fractions_addition {
         int numer = (numer1 * denom2) + (numer2 * denom1);
         int max = 0;
         for (int i = 1; i <= numer && i <= denom; i++) {
-            if (numer % i == 0 && denom % i == 0) max = i;
+            if (numer % i == 0 && denom % i == 0)
+                max = i;
         }
         numer=numer/max;
         denom=denom/max;
